@@ -1,3 +1,9 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 body {
     display: flex;
     justify-content: center;
@@ -22,6 +28,7 @@ body {
     text-align: center;
     padding: 1em;
     border-bottom: 1px solid rgba(212, 212, 212, 0.808);
+    height: 30vh;
 }
 
 .header img {
@@ -45,10 +52,24 @@ body {
     border-radius: 6px;
     border-color: rgba(0,0,0,0.14);
 }
+#pass {
+    padding-left: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border-radius: 6px;
+    border-color: rgba(0,0,0,0.14);
+}
 
 .checkbox {
     margin-top: 1em;
     margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 0.1em;
+}
+.checkbox button {
+
+   gap: 2em;
 }
 
 .form-content button {
@@ -81,4 +102,8 @@ button {
 
 .extra span {
     opacity: 0.5s;
+}
+
+#login-link {
+    text-decoration: none;
 }
